@@ -12,6 +12,9 @@ FEATURE:
   
 Technologies  used : Python, Functions,Modular Programming,VS Code
 
+Algorithm used:
+his project simulates a smart traffic signal system that adjusts green light timing based on the number of vehicles on each road. Unlike traditional fixed-timer signals, this system dynamically prioritizes roads with higher traffic. The goal is to reduce congestion and improve traffic flow using simple programming logic.
+
   Instructions for testing :
  1) Python is installed and working
     
