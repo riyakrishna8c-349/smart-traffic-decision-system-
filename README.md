@@ -14,12 +14,24 @@ FEATURE:
 
   Instructions for testing :
  1) Python is installed and working
+    
  2) Open terminal/command prompt and navigate to the project folder.
 Run the program using: python main.py
 
-3)Observe the output for each cycle:
- * Current traffic on all roads
- *  Selected busiest road
- * Allocated green signal time
-   
-4)Verify that and Check multiple cycles to confirm consistent behavior of the system.
+3 )The program will automatically execute 5 cycles of traffic simulation.
+For each cycle, verify:
+* Traffic data for all roads is displayed
+* The road with the maximum number of cars is selected
+* Appropriate green signal time is assigned:
+      More than 20 cars → 55 seconds
+      11–20 cars → 35 seconds
+      10 or less cars → 20 seconds
+  
+4) Check traffic updates after each cycle:
+      Selected road → cars decrease by 10
+      Other roads → cars increase by 3
+5) Ensure that:
+* Car count never becomes negative
+* Simulation runs for all 5 cycles
+  
+6) Final message “Simulation finished” is displayed
