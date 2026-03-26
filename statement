@@ -1,0 +1,18 @@
+LIMITATIONS:
+
+* Does not use real-time sensor data (simulation only)
+* Considers only number of vehicles, not speed or road size
+* No handling of emergency vehicles (ambulance, fire truck, etc.)
+* Assumes traffic changes are uniform and predictable, which is not realistic
+* Works for a single intersection only, not multiple connected signals
+* Does not consider traffic rules or turning movements
+
+Future scope:
+* Integrate real-time traffic sensors or cameras to collect live vehicle data instead of using fixed values
+* Add priority for emergency vehicles (ambulance, fire trucks) to improve response time
+* Expand the system to handle multiple intersections with coordinated signals for better city-wide traffic management
+
+target users:
+* Traffic management authorities (to control and optimize traffic signals)
+* City planners / smart city developers (for designing efficient road systems)
+* Researchers and students (to study and improve traffic algorithms)
