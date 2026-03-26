@@ -7,7 +7,7 @@ Problem Statement:
 Traditional traffic systems use fixed timing signals, which do not consider real-time traffic conditions. This leads to unnecessary waiting, increased fuel consumption, and traffic congestion. The aim of this project is to design a system that adapts signal timing based on traffic.
 
 Solution :
-The system dynamically gives priority to the road with the highest traffic, reducing congestion and improving traffic flow.
+The system dynamically gives priority to the road with the highest traffic, reducing congestion and improving traffic flow.This system reduces unnecessary waiting time and improves overall traffic efficiency.
 
 FEATURE:
 * Dynamic signal timing based on number of vehicles
@@ -19,7 +19,10 @@ FEATURE:
 Technologies  used : Python, Functions,Modular Programming,VS Code
 
 Algorithm used:
-his project simulates a smart traffic signal system that adjusts green light timing based on the number of vehicles on each road. Unlike traditional fixed-timer signals, this system dynamically prioritizes roads with higher traffic. The goal is to reduce congestion and improve traffic flow using simple programming logic.
+this project simulates a smart traffic signal system that adjusts green light timing based on the number of vehicles on each road. Unlike traditional fixed-timer signals, this system dynamically prioritizes roads with higher traffic. The goal is to reduce congestion and improve traffic flow using simple programming logic.A greedy approach is used because it makes the best immediate decision by selecting the road with maximum traffic.
+
+Time Complexity: O(n) per cycle
+Space Complexity: O(n)
 
   Instructions for testing :
  1) Python is installed and working
