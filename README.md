@@ -45,6 +45,8 @@ For each cycle, verify:
   
 6) Final message “Simulation finished” is displayed
 
-sample output 
+sample output :
+
+
 <img width="302" height="330" alt="image" src="https://github.com/user-attachments/assets/5988124a-10dc-40e9-a7f4-85906529fa19" />
 
