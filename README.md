@@ -19,7 +19,16 @@ FEATURE:
 Technologies  used : Python, Functions,Modular Programming,VS Code
 
 Algorithm used:
-this project simulates a smart traffic signal system that adjusts green light timing based on the number of vehicles on each road. Unlike traditional fixed-timer signals, this system dynamically prioritizes roads with higher traffic. The goal is to reduce congestion and improve traffic flow using simple programming logic.A greedy approach is used because it makes the best immediate decision by selecting the road with maximum traffic.
+Greedy search
+* Initialize roads with vehicle count
+* Display current traffic
+*Find road with maximum vehicles
+*Assign green signal time based on vehicles
+*Update vehicle count:
+    Selected road → decrease vehicles
+    Other roads → increase vehicles
+    Repeat for fixed number of cycles
+The system always chooses the best immediate option (road with max traffic), which helps reduce congestion quickly.
 
 Time Complexity: O(n) per cycle
 Space Complexity: O(n)
@@ -28,6 +37,7 @@ Space Complexity: O(n)
  1) Python is installed and working
     
  2) Open terminal/command prompt and navigate to the project folder.
+    
 Run the program using: python main.py
 
 3 )The program will automatically execute 5 cycles of traffic simulation.
