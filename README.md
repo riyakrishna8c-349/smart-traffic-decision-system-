@@ -3,6 +3,12 @@
 OVERVIEW OF THE PROJECT:
 The Smart Traffic Decision System is a simulation-based project developed using Python to improve traffic management at an intersection. Unlike traditional traffic signals that follow fixed timing, this system dynamically adjusts the green signal duration based on the number of vehicles present on each road.
 
+Problem Statement:
+Traditional traffic systems use fixed timing signals, which do not consider real-time traffic conditions. This leads to unnecessary waiting, increased fuel consumption, and traffic congestion. The aim of this project is to design a system that adapts signal timing based on traffic.
+
+Solution :
+The system dynamically gives priority to the road with the highest traffic, reducing congestion and improving traffic flow.
+
 FEATURE:
 * Dynamic signal timing based on number of vehicles
 * Identifies busiest road using a simple algorithm
@@ -38,3 +44,7 @@ For each cycle, verify:
 * Simulation runs for all 5 cycles
   
 6) Final message “Simulation finished” is displayed
+
+sample output 
+<img width="302" height="330" alt="image" src="https://github.com/user-attachments/assets/5988124a-10dc-40e9-a7f4-85906529fa19" />
+
