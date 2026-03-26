@@ -9,8 +9,8 @@ FEATURE:
 * Simulates real-time traffic updates after each cycle
 * Modular design (separate data, logic, and display)
 * Easy to understand and extend for future improvements
-
-  Technologies  used : Python, Functions,Modular Programming,VS Code
+  
+Technologies  used : Python, Functions,Modular Programming,VS Code
 
   Instructions for testing :
  1) Python is installed and working
